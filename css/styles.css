@@ -1,0 +1,216 @@
+#index.html
+header {
+    background-color: #000000;
+    color: #0f0f0f;
+    padding: 10px;
+    text-align: center;
+}
+body{
+            font-family: Calibri;
+            
+            background-image: url('7.jpg');
+            background-size: contain;
+        }
+        P{
+            color: #0c0c0c;
+            font-family: times new roman;
+            font-size: 14;
+
+        }
+        h1{
+            font-size: 45;
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(46, 175, 41);
+            text-align: center;
+
+        }
+    
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #ddd;
+}
+.dropbtn{
+    margin-right: 100px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: rgb(85, 68, 11);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+}
+.dropbtn:hover{
+    background-color: #2c29c5;
+}
+.dropdown-content{
+    display: none;
+    position:absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2) ;
+    z-index: 1;
+    transition: opacity 0.5s ease;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.dropdown:hover
+.dropdown-content{
+    display: list-item;
+    opacity: 10;
+    
+}
+.dropdown-content a {
+    color: rgb(17, 15, 31);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+}
+.dropdown-content a:hover{
+    background-color: turquoise;
+
+}
+a{
+    color: aquamarine;
+    text-decoration: none;
+    padding: 12px 16px;
+}
+a:hover{
+    color: coral;
+    text-decoration: underline;
+}
+#registrtioin.html
+    body{
+        font-family: Arial, sans-serif;
+        background-color: #f7f7f7;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .form-container {
+        max-width: 400px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    form {
+        display: grid;
+        grid-gap: 20px;
+    }
+    
+    .form-group {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    label {
+        font-weight: bold;
+    }
+    
+    input,
+    textarea {
+        padding: 8px;
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    button {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #45a049;}
+    centered-text{
+        text-align: center;
+    }
+#login.html
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    
+}
+p{
+    color: #333;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.form-group {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;}
+centered-text{
+    text-align: center;
+}
